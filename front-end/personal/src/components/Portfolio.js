@@ -1,9 +1,13 @@
-import React from 'react'
+import Nav from "./Nav";
+import Footer from "./Footer";
 
 function Portfolio() {
   return (
     <div>
-        <h1>This is the Portfolio page</h1>
+      <Nav />
+        <h1>here are some projects i've worked on</h1>
+      
+      <Footer />
     </div>
   )
 }

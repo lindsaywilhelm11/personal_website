@@ -1,15 +1,16 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 
-// Components
-import About from './About';
-import Contact from './Contact';
-import Home from './Home';
-import Portfolio from './Portfolio';
 
 function Nav() {
   return (
     <div>
-        
+        <ul className='nav'>
+          <li className='nav-li'><Link to={'/'} className='nav'>home</Link></li>
+          <li className='nav-li'><Link to={'/about'} className='nav'>about</Link></li>
+          <li className='nav-li'><Link to={'/portfolio'} className='nav'>portfolio</Link></li>
+          <li className='nav-li'><Link to={'/contact'} className='nav'>contact</Link></li>
+        </ul>
+
     </div>
   )
 }

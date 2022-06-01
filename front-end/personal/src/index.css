@@ -11,3 +11,110 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Home Page */
+
+.home-intro {
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  left: 30%;
+}
+
+.nav {
+  position: relative;
+  color: black;
+}
+
+.nav-li {
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: inline;
+  text-decoration: none;
+  left: 70%;
+  margin: 20px;
+  color: black;
+}
+
+.nav-li :hover {
+  color: #F2789F;
+}
+
+/* About Page */
+
+.image_section {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+
+.intro-p {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  left: 25%;
+  padding-bottom: 15%;
+}
+
+.about_img {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  top: 15%;
+  left: 40%
+}
+
+.tech-stack {
+  position: absolute;
+  left: 50%;
+  top: 45%
+}
+
+.tech-stack-p {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+
+/* Contact Page */
+
+.contact-form {
+  position: relative;
+  left: 150%;
+  margin-top: 20%;
+}
+
+#contact-btn {
+  margin-top: 2%;
+}
+
+.tech-stack {
+
+}
+
+/* Footer */
+
+.footer-container {
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  margin-top: 50px;
+}
+
+.socials {
+  text-align: center;
+  ;
+  margin: 10px;
+}
+
+.socials :hover {
+  color: #F2789F;
+}
